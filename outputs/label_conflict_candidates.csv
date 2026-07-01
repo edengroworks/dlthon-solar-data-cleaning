@@ -1,0 +1,10 @@
+file_a,file_b,phash_distance,label_a,label_b,label_match
+train_00784.jpg,train_00489.jpg,0,1,0,False
+train_01343.jpg,train_00126.jpg,0,1,0,False
+train_00692.jpg,train_01315.jpg,0,0,1,False
+train_00048.jpg,train_01135.jpg,0,0,1,False
+train_01118.jpg,train_00042.jpg,0,1,0,False
+train_00597.jpg,train_00408.jpg,0,1,0,False
+train_00435.jpg,train_01172.jpg,2,1,0,False
+train_00159.jpg,train_00261.jpg,2,0,1,False
+train_00187.jpg,train_01154.jpg,4,1,0,False
