@@ -1,0 +1,10 @@
+file_a,file_b,phash_distance,label_a,label_b,label_match,decision,final_label_a,final_label_b,review_note
+train_00784.jpg,train_00489.jpg,0,1,0,False,review,1,0,동일한 청소 장면에 라벨 충돌이 있으며 먼지 여부 판단이 어려움
+train_01343.jpg,train_00126.jpg,0,1,0,False,remove,1,0,합성·카탈로그형 제품 이미지로 먼지 상태 판별 학습에 부적절
+train_00692.jpg,train_01315.jpg,0,0,1,False,review,0,1,거의 동일한 저화질 이미지에 라벨 충돌이 있으며 먼지 여부 판단이 어려움
+train_00048.jpg,train_01135.jpg,0,0,1,False,review,0,1,동일한 청소 장면에 라벨 충돌이 있으며 현재 먼지 상태 판단이 어려움
+train_01118.jpg,train_00042.jpg,0,1,0,False,remove,1,0,렌더링·합성 이미지로 보이며 실제 먼지 상태 판별이 어려워 학습에 부적절
+train_00597.jpg,train_00408.jpg,0,1,0,False,remove,1,0,워터마크가 포함된 스톡 이미지이며 동일 장면에 라벨 충돌이 있고 먼지 상태 판단이 어려움
+train_00435.jpg,train_01172.jpg,2,1,0,False,remove,1,0,일반적인 태양광 패널 이미지로 보기 어렵고 태양광 패널 여부가 불확실하여 학습에서 제외
+train_00159.jpg,train_00261.jpg,2,0,1,False,remove,0,1,태양광 패널보다 펌프·장비가 중심인 제품 광고 이미지로 먼지 분류 학습에 부적절
+train_00187.jpg,train_01154.jpg,4,1,0,False,relabel,1,1,거의 동일한 이미지이며 패널 표면과 프레임에 오염이 뚜렷해 두 이미지 모두 Dusty(1)로 판단
